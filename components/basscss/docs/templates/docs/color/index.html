@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<div data-include="docs/partials/_head.html"></div>
+<body class="container px2">
+
+<header class="py3 mb3 border-bottom">
+  <div class="avenir h4 caps bold mt2">
+    <a href="/">Basscss</a> /
+    <a href="/docs">Docs</a>
+  </div>
+  <h1 class="avenir md-h1 lg-h1 caps m0">Color</h1>
+</header>
+
+<div class="clearfix mxn2">
+  <div class="sm-col sm-col-9 px2 py2">
+
+    <p class="h3">
+      The word <i>color</i> is used loosely here to describe
+      the surface-level aspects of a design, including
+      colors, backgrounds, borders, shadows and other properties
+      that are decorative and highly likely to change over time.
+      Basscss includes a suite of color utilities as a starting point.
+      Use these as a guide for creating your own styles.
+    </p>
+
+    <section id="colors" class="py2">
+      <h1>Colors</h1>
+      <div data-include-example="docs/examples/colors.html"></div>
+    </section>
+
+    <section id="backgrounds" class="py2">
+      <h1>Background Colors</h1>
+      <div data-include-example="docs/examples/backgrounds.html"></div>
+    </section>
+
+    <section id="borders" class="py2">
+      <h1>Borders</h1>
+      <div data-include-example="docs/examples/borders.html"></div>
+    </section>
+
+    <section id="forms" class="py2">
+      <h1>Forms</h1>
+      <p>Apply the <code>.field-light</code> color style to input, select, and textarea elements to control appearance.</p>
+      <div class="mb2" data-include-example="docs/examples/form-basic.html"></div>
+      <p>
+        The <code>.field-light</code> style includes states for disabled and read-only fields,
+        as well as success, warning, and error states.
+      </p>
+      <div class="mb2" data-include-example="docs/examples/form-states.html"></div>
+      <p>Use color utilities along with <code>.fieldset-reset</code> to style fieldsets.</p>
+      <div data-include-example="docs/examples/form-fieldset-styled.html"></div>
+    </section>
+
+    <section id="buttons" class="py2">
+      <h1>Buttons</h1>
+      <p>
+        Basscss includes the following basic button styles:
+        <code>.button-blue</code>,
+        <code>.button-gray</code>,
+        <code>.button-blue-outline</code>, and
+        <code>.button-red</code>.
+        Customize these styles to suite your needs.
+      </p>
+      <div data-include-example="docs/examples/buttons.html"></div>
+    </section>
+
+    <section id="tables" class="py2">
+      <h1>Tables</h1>
+      <p>
+        Use the <code>.table-light</code> style as a starting point,
+        then apply color utilities to style tables.
+      </p>
+      <div class="mb2" data-include-example="docs/examples/tables.html"></div>
+      <div data-include-example="docs/examples/table-color-utilities.html"></div>
+    </section>
+
+    <section id="variables" class="py2">
+      <h1>Default Variables</h1>
+      <p>
+        Colors styles use the following variables.
+        To alter these defaults, declare new values after importing Basscss with Rework. 
+      </p>
+      <div data-include="docs/examples/color-variables.html"></div>
+    </section>
+
+    <section id="npm" class="py2">
+      <h1>NPM</h1>
+      <p>These basic color styles are also available as a standalone NPM module.</p>
+      <pre class="Example_code">npm install basscss-color-basic</pre>
+    </section>
+
+    <hr class="ml0 col-5 sm-col-3 hr-block bg-blue">
+
+    <div class="clearfix mxn2 py2">
+      <a href="/docs/layout" class="h3 left button">
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16" height="16" fill="currentcolor">
+          <path d="M20 1 L24 5 L14 16 L24 27 L20 31 L6 16 z "></path>
+        </svg>
+        Layout
+      </a>
+    </div>
+
+  </div>
+
+  <div class="py2 sm-col sm-col-3 sm-show">
+    <a href="#colors" class="button block">Colors</a>
+    <a href="#backgrounds" class="button block">Backgrounds</a>
+    <a href="#borders" class="button block">Borders</a>
+    <a href="#forms" class="button block">Forms</a>
+    <a href="#buttons" class="button block">Buttons</a>
+    <a href="#tables" class="button block">Tables</a>
+    <a href="#variables" class="button block">Variables</a>
+    <a href="#npm" class="button block">NPM</a>
+  </div>
+
+</div>
+
+<section id="next-steps" class="py2">
+  <h1>Learn More</h1>
+  <div class="clearfix mxn2">
+    <div class="sm-col sm-col-6 md-col-3 py1">
+      <a href="/docs/principles" class="h3 button block button-nav-light">Design Principles</a>
+    </div>
+    <div class="sm-col sm-col-6 md-col-3 py1">
+      <a href="/docs/guides/basics" class="h3 button block button-nav-light">Basics Guide</a>
+    </div>
+    <div class="sm-col sm-col-6 md-col-3 py1">
+      <a href="/docs/guides/ui" class="h3 button block button-nav-light">UI Elements Guide</a>
+    </div>
+  </div>
+</section>
+
+
+<div data-include="docs/partials/_footer.html"></div>
+
+</body>
+</html>

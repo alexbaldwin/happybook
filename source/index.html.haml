@@ -1,0 +1,12 @@
+.app{'ng-controller' => 'happyController'}
+  .container.border-bottom.p1.m1
+    %form{name: 'form', 'ng-submit' => 'addHappy()'}
+      %input.field-light{autofocus: true, 'ng-model' => 'newHappy', required: true, name: 'newHappy', type: 'text', placeholder: 'What makes you happy?'}
+      %button.button-blue{'ng-disabled' => 'form.$invalid'} Add
+  .container.border-bottom.p1.m1
+    %ul
+      %li{'ng-repeat' => 'happy in happies'} {{happy.title}}
+  .container.p1.m1
+    %footer
+      %small.small
+        %a{'ng-click' => 'happyReset()'} Reset
