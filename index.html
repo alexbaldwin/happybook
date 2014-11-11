@@ -22,7 +22,7 @@
   </div>
   <div class='container border-bottom p1 m1'>
     <ul>
-      <li ng-repeat='happy in happies'>{{happy.title}}</li>
+      <li ng-repeat='happy in happies.slice().reverse()'>{{happy.title}}</li>
     </ul>
   </div>
   <div class='container p1 m1'>
