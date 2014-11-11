@@ -5,7 +5,7 @@
       %button.button-blue{'ng-disabled' => 'form.$invalid'} Add
   .container.border-bottom.p1.m1
     %ul
-      %li{'ng-repeat' => 'happy in happies'} {{happy.title}}
+      %li{'ng-repeat' => 'happy in happies.slice().reverse()'} {{happy.title}}
   .container.p1.m1
     %footer
       %small.small
